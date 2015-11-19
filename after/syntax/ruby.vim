@@ -5,7 +5,9 @@ endif
 " comparators
 syntax match concealedOperator "<=" conceal cchar=≤
 syntax match concealedOperator ">=" conceal cchar=≥
-syntax match concealedOperator "!=" conceal cchar=≢
+syntax match concealedOperator "!=" conceal cchar=≠
+syntax match concealedOperator "->" conceal cchar=→
+syntax match concealedOperator "=>" conceal cchar=⟹
 
 " math related
 syntax match concealedOperator " / " conceal cchar=÷
